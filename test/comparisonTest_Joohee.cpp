@@ -5,6 +5,7 @@
 #include "FHEContext.h"
 #include "FHE.h"
 #include "Ctxt.h"
+#include "EncryptedArray.h"
 #include <NTL/ZZ.h>
 #include <NTL/vec_ZZ.h>
 
