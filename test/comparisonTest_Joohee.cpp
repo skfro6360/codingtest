@@ -3,6 +3,7 @@
 #include<iostream>
 #include<cstdlib>
 #include "FHEContext.h"
+#include "FHE.h"
 #include "Ctxt.h"
 #include <NTL/ZZ.h>
 #include <NTL/vec_ZZ.h>
@@ -38,7 +39,7 @@ int main(){
 
     cout << "Generating Frobenius and SIMD Matrices... \n";
     addFrbMatrices(secretKey);
-    addSome1DMatrices(publicKey);
+    addSome1DMatrices(secretKey);
 
     const EncryptedArray ea(context, F);
 
