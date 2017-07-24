@@ -86,8 +86,8 @@ int main(){
     else {
         cout << (Msg1 > Msg2) << endl;
     }
-    cout << "Comparison Result (Encrypted): " << Hi << endl;
-    cout << "Homomorphic Levels Left: " << Bye << endl;
+    cout << "Comparison Result (Encrypted): " << endl; // << endl;
+    cout << "Homomorphic Levels Left: " << endl; // << endl;
 
 	cout << "Homomorphic Integers Comparison Test Terminated...\n";
     return 0;
