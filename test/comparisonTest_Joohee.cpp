@@ -2,7 +2,9 @@
 #include "utilities.h"
 #include<iostream>
 #include<cstdlib>
+#include "FHEContext.h"
 #include <NTL/ZZ.h>
+#include <NTL/vec_ZZ.h>
 
 	using namespace std;
 	using namespace NTL;
