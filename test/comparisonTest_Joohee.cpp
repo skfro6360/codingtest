@@ -23,7 +23,7 @@ int main(){
     long m = 100;
     long s = 10;
 
-    long m = FindM(security, L, c, p, d, s, m);
+    m = FindM(security, L, c, p, d, s, m);
     
     FHEcontext context(m, p, r);
     buildModChain(context, L);
