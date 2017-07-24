@@ -1,4 +1,5 @@
 #include "comparison.h"
+#include "utilities.h"
 #include<iostream>
 #include<cstdlib>
 #include <NTL/ZZ.h>
