@@ -24,7 +24,7 @@ include_directories(include)
 add_subdirectory(lib)
 
 add_library(codingtest ${SOURCE_FILES})
-target_link_libraries(codingtest HElib NTL GMP GF2X -pthread -lm -O2)
+target_link_libraries(codingtest HElib NTL GMP -pthread -lm -O2)
 
 add_executable(test_Joohee test/comparisonTest_Joohee.cpp)
 target_link_libraries(test_Joohee codingtest -pthread)
