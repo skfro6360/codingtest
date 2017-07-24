@@ -49,7 +49,7 @@ int main(){
     */
     ZZ Msg1, Msg2;
     
-    generateMessage();
+//    generateMessage();
 	
 	cout << "Msg1 : " << Msg1 << endl;
 	cout << "Msg2 : " << Msg2 << endl;
@@ -86,8 +86,8 @@ int main(){
     else {
         cout << (Msg1 > Msg2) << endl;
     }
-    cout << "Comparison Result (Encrypted): " <<  << endl;
-    cout << "Homomorphic Levels Left: " <<  << endl;
+    cout << "Comparison Result (Encrypted): " << Hi << endl;
+    cout << "Homomorphic Levels Left: " << Bye << endl;
 
 	cout << "Homomorphic Integers Comparison Test Terminated...\n";
     return 0;
