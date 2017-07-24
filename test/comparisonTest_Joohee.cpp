@@ -1,6 +1,5 @@
 #include "comparison.h"
 #include<cstdlib>
-#include/NTL
 
 	using namespace std;
 
