@@ -3,6 +3,7 @@
 #include<iostream>
 #include<cstdlib>
 #include "FHEContext.h"
+#include "FHE.h"
 #include <NTL/ZZ.h>
 #include <NTL/vec_ZZ.h>
 
