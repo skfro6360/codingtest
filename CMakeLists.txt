@@ -16,15 +16,15 @@ if (OPENMP_FOUND)
     set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${OpenMP_CXX_FLAGS}")
 endif()
 
-set (HELIB_SOURCE_DIRECTORY "</home/skfro6360/HElib>")
+set (HELIB_SOURCE_DIRECTORY "/home/skfro6360/HElib")
  
 include_directories(${HELIB_SOURCE_DIRECTORY})
 include_directories(include)
 
 add_subdirectory(lib)
 
-add_library(16thCodingTest ${SOURCE_FILES})
-target_link_libraries(16thCodingTest HElib NTL GMP GF2X -pthread -lm -O2)
+add_library(codingtest ${SOURCE_FILES})
+target_link_libraries(codingtest HElib NTL GMP GF2X -pthread -lm -O2)
 
-add_executable(test_<YourNAME> test/comparisonTest_<YourName>.cpp)
-target_link_libraries(test_<YourNAME> 16thCodingTest -pthread)
+add_executable(test_Joohee test/comparisonTest_Joohee.cpp)
+target_link_libraries(test_Joohee codingtest -pthread)
