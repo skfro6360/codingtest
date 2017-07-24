@@ -4,5 +4,4 @@
 // if lessThan = 1, lessThan circuit
 // if lessThan = 0, greaterThan circuit
 void comparisonTest(){
-    printf("Hello world!");
 }
