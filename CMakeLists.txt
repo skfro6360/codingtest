@@ -16,7 +16,7 @@ if (OPENMP_FOUND)
     set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${OpenMP_CXX_FLAGS}")
 endif()
 
-set (HELIB_SOURCE_DIRECTORY "<Your HElib Directory>")
+set (HELIB_SOURCE_DIRECTORY "</home/skfro6360/HElib>")
  
 include_directories(${HELIB_SOURCE_DIRECTORY})
 include_directories(include)
