@@ -3,8 +3,7 @@
 #include<iostream>
 #include<cstdlib>
 #include "FHEContext.h"
-#include "EvalMap.h"
-#include "powerful.h"
+#include "Ctxt.h"
 #include <NTL/ZZ.h>
 #include <NTL/vec_ZZ.h>
 
