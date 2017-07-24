@@ -21,7 +21,7 @@ int main(){
     long d = 0;
     long bitLength = 20;
 
-    m = FindM(security, L, c, p, d, 0, 0);
+    long m = FindM(security, L, c, p, d, 0, 0);
     
     FHEcontext context(m, p, r);
     buildModChain(context, L);
