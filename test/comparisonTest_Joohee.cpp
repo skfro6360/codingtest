@@ -75,7 +75,7 @@ int main(){
     comparisonTest();
 	
     end = TOC;
-	cout << "Time per integers comparison (" << str << ") test: " << get_time_us(start, end, 1) * 1000 << " sec" << std::endl;
+	cout << "Time per integers comparison (" << str << ") test: " << get_time_us(start, end, 1) / 1000000 << " sec" << std::endl;
 
 
     cout << endl;
